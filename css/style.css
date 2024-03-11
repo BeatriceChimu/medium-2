@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p {
+    color: grey;
+    font-size: small;
+}
+
+body a {
+    color: grey;
+}
+
+#supercontainer {
+    display: flex;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    width: 70%;
+    padding: 2%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+
+}
+
+.article li {
+    text-align: left;
+    font-size: 10px;
+    margin-left: 0;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+.article p{
+    margin-top: 1em;
+}
+.article span{
+    font-size: 20px;
+}
+.author img {
+    width: 6%;
+    height: 6%;
+    border-radius: 50%;
+}
+
+.article div:last-child {
+    padding: 3em;
+}
+
+.author {
+    display: flex;
+}
+.author p{
+    font-weight: bold;
+    color: black;
+}
+.article .inlineButtonli{
+    background-color: rgb(231, 229, 229);
+}
+
+#logo1 img {
+    width: 15%;
+    height: 30%;
+    padding-left: 5em;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    padding-left: 2em;
+    font-weight: bold;
+    margin-top: 5em;
+    color: black;
+    border-bottom: 1px solid grey;
+}
+
+#navbarRight {
+    display: flex;
+    padding: 25px 25px;
+
+}
+
+.navbarIcons {
+    padding: 0.5em;
+}
+
+button {
+    border-radius: 50px;
+}
+
+p.profile {
+    font-weight: bold;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: grey;
+}
+#follow{
+    height: 30%;
+}
+#follow img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#follow p {
+    font-weight: bold;
+}
+
+.followText p {
+    color: black;
+    font-weight: bold;
+}
+
+.followText span {
+    color: grey;
+    font-size: small;
+}
+
+#logo2 img {
+    width: 8%;
+    height: 8%;
+}
+
+#logo2 {
+    text-align: center;
+}
+
+button img {
+    width: 3%;
+    height: 3%;
+}
+
+
+.minilogo img {
+    width: 5%;
+    height: 5%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+#connect {
+
+    height: 20%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 5em;
+    border-bottom: 1px solid grey;
+    
+
+}
+
+#topics {
+    height: 20%;
+    margin-top: 5em;
+
+
+}
+
+#topics li {
+    display: inline-block;
+    background-color: rgb(231, 229, 229);
+    border-radius: 50px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 0;
+    font-size: small;
+
+}
+
+#follow {
+    height: 30%;
+    margin-top: 5em;
+}
+.followText {
+    padding-top: 2em;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#saved{
+    padding-top: 2em; 
+    height: 20%;
+}
+#saved li{
+    text-align: left;
+    font-size: 10px;
+    margin-left: 0;
+}
+
+#saved span{
+    font-size: 10px;
+}
+#saved .savedAside{
+    padding-top: 2em; 
+}
+ .savedAside img{
+    padding-top: 2em; 
+}
+#saved a{
+    font-size: 10px;
+    color: green;
+    margin-top: 2em; 
+}
+
+footer li{
+    text-align: left;
+    font-size: 13px;
+    margin-left: 0;
+    padding:10px;
+}
